@@ -18,6 +18,7 @@
 		F8086F9B2C9480C0000EC783 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8086F9A2C9480C0000EC783 /* Character.swift */; };
 		F8086F9D2C948907000EC783 /* Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8086F9C2C948907000EC783 /* Death.swift */; };
 		F87CC4482C985315005BEE74 /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CC4472C985315005BEE74 /* FetchService.swift */; };
+		F8CDFA162C9B3CD5008AF615 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CDFA152C9B3CD5008AF615 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		F8086F9A2C9480C0000EC783 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		F8086F9C2C948907000EC783 /* Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Death.swift; sourceTree = "<group>"; };
 		F87CC4472C985315005BEE74 /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
+		F8CDFA152C9B3CD5008AF615 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				F8086F822C945772000EC783 /* QuoteZApp.swift */,
 				F8086F842C945772000EC783 /* ContentView.swift */,
+				F8CDFA142C9B3CB2008AF615 /* ViewModel */,
 				F87CC4462C9852FA005BEE74 /* Services */,
 				F8086F972C947F4D000EC783 /* Model */,
 				F8086F862C945773000EC783 /* Assets.xcassets */,
@@ -110,6 +113,14 @@
 				F87CC4472C985315005BEE74 /* FetchService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F8CDFA142C9B3CB2008AF615 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8CDFA152C9B3CD5008AF615 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				F8086F832C945772000EC783 /* QuoteZApp.swift in Sources */,
 				F87CC4482C985315005BEE74 /* FetchService.swift in Sources */,
 				F8086F9B2C9480C0000EC783 /* Character.swift in Sources */,
+				F8CDFA162C9B3CD5008AF615 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
